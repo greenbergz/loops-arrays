@@ -2,16 +2,17 @@
 var count = 0;
 var list = '';
 
-while (count < 10) {
+while (count < 2) {
   list += '<li>current count is: ' + count + '</li>';
   count += 1;
+  window.open("http://greenbergz.github.io/loops-arrays");
 }
 
 // output results
 document.write("<h1>Loops</h1>");
 document.write("<ol>" + list + "</ol>");
 
-var myItems=[
+/*var myItems=[
   ["question one", "answer one"],
   ["question two", "answer two"]
 ]
@@ -25,3 +26,4 @@ while(i<myItems.length){
 
 secondList += "<ul>";
 document.write(secondList);
+*/
